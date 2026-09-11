@@ -1,36 +1,76 @@
 {
-  "version": "2.4.0",
+  "version": "3.0.0",
   "niveau": "normale",
-  "url": "https://github.com/venum78160/Plutus/releases/latest",
-  "url_exe": "https://github.com/venum78160/Plutus/releases/download/v2.4.0/Plutus-Installation.exe",
-  "sha256": "07d3d954da2b791bbf9157d8e3d46cb9394513a68c1289f614b39db2deb45ce3",
-  "taille": 43413495,
-  "notes": "release: donnees SCPI automatiques, box placement, favori v13 et import durci [minor]",
+  "url": "https://github.com/venum78160/Noltan/releases/latest",
+  "url_exe": "https://github.com/venum78160/Noltan/releases/download/v3.0.0/Noltan-Installation.exe",
+  "sha256": "7f9605fdf74bd4e231b19a6fe0fea5be28c78ae15250bbc5cb916a3bc2bb89e1",
+  "taille": 43591696,
+  "notes": "release: Plutus devient Noltan, palette Ctrl+K, dossier reglementaire, archivage, signature de code [major]",
   "retirees": [],
   "notes_maj": {
-    "version": "2.4.0",
-    "date": "2026-09-03",
-    "intro": "Les données SCPI de vos documents se rafraîchissent désormais toutes seules, et la déclaration d’une souscription à la box placement ne se ressaisit plus.",
+    "version": "3.0.0",
+    "date": "2026-09-11",
+    "intro": "Plutus s’appelle désormais Noltan — même outil, nouveau nom. Et Ctrl+K devient la palette de commandes : clients, actions, écrans et même le contenu de vos fiches répondent depuis un seul champ.",
     "points": [
       {
         "t": "nouveau",
-        "titre": "Les chiffres SCPI de vos documents restent à jour tout seuls"
+        "titre": "Plutus devient Noltan"
       },
       {
         "t": "nouveau",
-        "titre": "Déclarez vos souscriptions à la box placement sans ressaisie"
+        "titre": "Lancez n’importe quelle action avec Ctrl+K"
+      },
+      {
+        "t": "nouveau",
+        "titre": "Retrouvez un mot partout dans vos fiches"
+      },
+      {
+        "t": "nouveau",
+        "titre": "Choisissez la taille du texte"
+      },
+      {
+        "t": "nouveau",
+        "titre": "La fiche vous dit l’âge de ses données"
+      },
+      {
+        "t": "nouveau",
+        "titre": "Voyez où en est le dossier réglementaire de chaque client"
+      },
+      {
+        "t": "nouveau",
+        "titre": "Archivez les anciens clients sans rien supprimer"
+      },
+      {
+        "t": "nouveau",
+        "titre": "Écrivez un mail sur mesure depuis la fiche"
+      },
+      {
+        "t": "nouveau",
+        "titre": "Présentez Noltan en 40 minutes, à-côtés compris"
       },
       {
         "t": "mieux",
-        "titre": "Des documents plus justes à la signature"
+        "titre": "Les Réglages s’ouvrent sur l’état de Noltan"
       },
       {
         "t": "mieux",
-        "titre": "L’import lit mieux les classeurs difficiles"
+        "titre": "Corrigez un modèle de mappage sans repartir de zéro"
+      },
+      {
+        "t": "mieux",
+        "titre": "Recadrez la photo de votre signature au format qui vous va"
+      },
+      {
+        "t": "mieux",
+        "titre": "Une recherche et un Accueil qui s’ouvrent sans attendre"
       },
       {
         "t": "corrige",
-        "titre": "Amélioration de la stabilité et correction de plusieurs problèmes mineurs"
+        "titre": "Noltan ne s’accuse plus d’un plantage qui n’est pas le sien"
+      },
+      {
+        "t": "corrige",
+        "titre": "Le logo du cabinet quitte les documents pour le moment"
       }
     ]
   }
