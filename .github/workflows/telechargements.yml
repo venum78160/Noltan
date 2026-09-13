@@ -1,0 +1,82 @@
+# Relevé quotidien des compteurs de téléchargement des releases.
+#
+# GitHub ne conserve qu'un CUMUL par fichier (download_count) : sans relevé
+# régulier, aucune courbe dans le temps. Ce workflow relit chaque jour les
+# compteurs de TOUTES les releases (API publique : rien de nouveau n'est
+# exposé) et ajoute une ligne par fichier dans telechargements.csv, sur la
+# branche `statistiques` — jamais sur main, où la CI de l'application pousse
+# version.json à chaque release (un commit concurrent ferait échouer ce push).
+#
+# Lecture : outils/telechargements_github.py du dépôt privé, ou directement
+# https://raw.githubusercontent.com/venum78160/Noltan/statistiques/telechargements.csv
+#
+# Le compteur additionne nouveaux téléchargements ET mises à jour automatiques
+# des postes déjà installés (même fichier) : c'est un plafond, pas un nombre
+# d'essais.
+name: Relevé des téléchargements
+
+on:
+  schedule:
+    - cron: "17 5 * * *" # chaque jour à 05:17 UTC
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: statistiques
+  cancel-in-progress: false
+
+jobs:
+  relever:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Récupérer le dépôt
+        uses: actions/checkout@v4
+
+      - name: Se placer sur la branche statistiques (créée au premier passage)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git ls-remote --exit-code --heads origin statistiques >/dev/null 2>&1; then
+            git fetch --depth=1 origin statistiques
+            git checkout statistiques
+          else
+            git checkout --orphan statistiques
+            git rm -rf -q .
+            {
+              echo "# Statistiques de téléchargement"
+              echo
+              echo "Relevé quotidien des compteurs de téléchargement des releases (API GitHub),"
+              echo "une ligne par fichier et par jour : date, tag, fichier, cumul."
+              echo "Le cumul additionne nouveaux téléchargements et mises à jour automatiques"
+              echo "des postes déjà installés : c'est un plafond, pas un nombre d'essais."
+            } > README.md
+            echo "date,tag,fichier,cumul" > telechargements.csv
+          fi
+
+      - name: Relever les compteurs
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          jour="$(date -u +%F)"
+          if grep -q "^${jour}," telechargements.csv; then
+            echo "Relevé du ${jour} déjà présent : rien à faire."
+            exit 0
+          fi
+          gh api "repos/${GITHUB_REPOSITORY}/releases?per_page=100" --paginate \
+            --jq '.[] | .tag_name as $t | .assets[] | [$t, .name, .download_count] | @csv' \
+            | sed "s/^/${jour},/" >> telechargements.csv
+          echo "Dernières lignes :"
+          tail -n 5 telechargements.csv
+
+      - name: Publier le relevé
+        run: |
+          if git ls-files --error-unmatch telechargements.csv >/dev/null 2>&1 \
+             && git diff --quiet -- telechargements.csv; then
+            echo "Aucun changement."
+            exit 0
+          fi
+          git add README.md telechargements.csv
+          git commit -m "Relevé du $(date -u +%F)"
+          git push origin statistiques
