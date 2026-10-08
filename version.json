@@ -1,76 +1,76 @@
 {
-  "version": "3.0.0",
+  "version": "3.1.0",
   "niveau": "normale",
   "url": "https://github.com/venum78160/Noltan/releases/latest",
-  "url_exe": "https://github.com/venum78160/Noltan/releases/download/v3.0.0/Noltan-Installation.exe",
-  "sha256": "7f9605fdf74bd4e231b19a6fe0fea5be28c78ae15250bbc5cb916a3bc2bb89e1",
-  "taille": 43591696,
-  "notes": "release: Plutus devient Noltan, palette Ctrl+K, dossier reglementaire, archivage, signature de code [major]",
+  "url_exe": "https://github.com/venum78160/Noltan/releases/download/v3.1.0/Noltan-Installation.exe",
+  "sha256": "ac4f77bb2f8727eaed84a4260ed11056b2281d0fceb7f73ecc29b4a38d2f0ed8",
+  "taille": 44093016,
+  "notes": "release: Noltan 3.1.0 — relais deux ordinateurs, page Opérations refaite, tâches et notes du client, rappels, Réglages par rubriques, favori v15, bêta prolongée au 30/11 [minor]",
   "retirees": [],
   "notes_maj": {
-    "version": "3.0.0",
-    "date": "2026-09-11",
-    "intro": "Plutus s’appelle désormais Noltan — même outil, nouveau nom. Et Ctrl+K devient la palette de commandes : clients, actions, écrans et même le contenu de vos fiches répondent depuis un seul champ.",
+    "version": "3.1.0",
+    "date": "2026-10-08",
+    "intro": "Un mois de travail en une seule mise à jour : Noltan sur vos deux ordinateurs, une page Opérations refaite, des tâches et des notes plus complètes — et la bêta gratuite prolongée jusqu’au 30 novembre.",
     "points": [
       {
         "t": "nouveau",
-        "titre": "Plutus devient Noltan"
+        "titre": "Travaillez sur vos deux ordinateurs"
       },
       {
         "t": "nouveau",
-        "titre": "Lancez n’importe quelle action avec Ctrl+K"
+        "titre": "Suivez toutes vos opérations d’un regard"
       },
       {
         "t": "nouveau",
-        "titre": "Retrouvez un mot partout dans vos fiches"
+        "titre": "Gérez chaque opération depuis sa carte"
       },
       {
         "t": "nouveau",
-        "titre": "Choisissez la taille du texte"
+        "titre": "Gardez l’historique des notes de chaque client"
       },
       {
         "t": "nouveau",
-        "titre": "La fiche vous dit l’âge de ses données"
+        "titre": "Pensez aux anniversaires de vos clients"
       },
       {
         "t": "nouveau",
-        "titre": "Voyez où en est le dossier réglementaire de chaque client"
+        "titre": "Pilotez vos tâches au même endroit"
       },
       {
         "t": "nouveau",
-        "titre": "Archivez les anciens clients sans rien supprimer"
+        "titre": "Laissez Noltan rappeler le rendez-vous à votre client"
       },
       {
         "t": "nouveau",
-        "titre": "Écrivez un mail sur mesure depuis la fiche"
+        "titre": "Revenez à vos notes de rendez-vous d’un clic"
       },
       {
         "t": "nouveau",
-        "titre": "Présentez Noltan en 40 minutes, à-côtés compris"
+        "titre": "N’oubliez plus un compte rendu"
+      },
+      {
+        "t": "nouveau",
+        "titre": "Notez vos appels, SMS et e-mails"
+      },
+      {
+        "t": "nouveau",
+        "titre": "Retrouvez-vous dans les Réglages"
       },
       {
         "t": "mieux",
-        "titre": "Les Réglages s’ouvrent sur l’état de Noltan"
+        "titre": "Remplissez Proxeema avec plus de sûreté"
       },
       {
         "t": "mieux",
-        "titre": "Corrigez un modèle de mappage sans repartir de zéro"
+        "titre": "Retrouvez votre signature dans Gmail"
       },
       {
         "t": "mieux",
-        "titre": "Recadrez la photo de votre signature au format qui vous va"
-      },
-      {
-        "t": "mieux",
-        "titre": "Une recherche et un Accueil qui s’ouvrent sans attendre"
+        "titre": "Un compte rendu qui connaît le prochain rendez-vous"
       },
       {
         "t": "corrige",
-        "titre": "Noltan ne s’accuse plus d’un plantage qui n’est pas le sien"
-      },
-      {
-        "t": "corrige",
-        "titre": "Le logo du cabinet quitte les documents pour le moment"
+        "titre": "Stabilité et corrections"
       }
     ]
   }
