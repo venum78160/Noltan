@@ -1,72 +1,36 @@
 {
-  "version": "3.1.0",
+  "version": "3.2.0",
   "niveau": "normale",
   "url": "https://github.com/venum78160/Noltan/releases/latest",
-  "url_exe": "https://github.com/venum78160/Noltan/releases/download/v3.1.0/Noltan-Installation.exe",
-  "sha256": "ac4f77bb2f8727eaed84a4260ed11056b2281d0fceb7f73ecc29b4a38d2f0ed8",
-  "taille": 44093016,
-  "notes": "release: Noltan 3.1.0 — relais deux ordinateurs, page Opérations refaite, tâches et notes du client, rappels, Réglages par rubriques, favori v15, bêta prolongée au 30/11 [minor]",
+  "url_exe": "https://github.com/venum78160/Noltan/releases/download/v3.2.0/Noltan-Installation.exe",
+  "sha256": "89dc54c56ad8d477abdb09b5ef8377839df9714b8305934bfed074fa33ea4c7d",
+  "taille": 75988304,
+  "notes": "release: Noltan 3.2.0 — formulaires PDF remplis sur le document, fiches conseil Stellium livrées, import de tous les investisseurs Proxeema, ancien dossier clients/ résorbé [minor]",
   "retirees": [],
   "notes_maj": {
-    "version": "3.1.0",
-    "date": "2026-10-08",
-    "intro": "Un mois de travail en une seule mise à jour : Noltan sur vos deux ordinateurs, une page Opérations refaite, des tâches et des notes plus complètes — et la bêta gratuite prolongée jusqu’au 30 novembre.",
+    "version": "3.2.0",
+    "date": "2026-10-13",
+    "intro": "Vos fiches conseil et bulletins PDF se remplissent directement dans Noltan, les fiches Stellium sont livrées avec l’application, et tout votre portefeuille Proxeema s’importe en un clic.",
     "points": [
       {
         "t": "nouveau",
-        "titre": "Travaillez sur vos deux ordinateurs"
+        "titre": "Remplissez vos formulaires PDF sur le document"
       },
       {
         "t": "nouveau",
-        "titre": "Suivez toutes vos opérations d’un regard"
-      },
-      {
-        "t": "nouveau",
-        "titre": "Gérez chaque opération depuis sa carte"
-      },
-      {
-        "t": "nouveau",
-        "titre": "Gardez l’historique des notes de chaque client"
-      },
-      {
-        "t": "nouveau",
-        "titre": "Pensez aux anniversaires de vos clients"
-      },
-      {
-        "t": "nouveau",
-        "titre": "Pilotez vos tâches au même endroit"
-      },
-      {
-        "t": "nouveau",
-        "titre": "Laissez Noltan rappeler le rendez-vous à votre client"
-      },
-      {
-        "t": "nouveau",
-        "titre": "Revenez à vos notes de rendez-vous d’un clic"
-      },
-      {
-        "t": "nouveau",
-        "titre": "N’oubliez plus un compte rendu"
-      },
-      {
-        "t": "nouveau",
-        "titre": "Notez vos appels, SMS et e-mails"
-      },
-      {
-        "t": "nouveau",
-        "titre": "Retrouvez-vous dans les Réglages"
+        "titre": "Les fiches conseil Stellium livrées avec Noltan"
       },
       {
         "t": "mieux",
-        "titre": "Remplissez Proxeema avec plus de sûreté"
+        "titre": "Noltan apprend en vous regardant remplir"
       },
       {
-        "t": "mieux",
-        "titre": "Retrouvez votre signature dans Gmail"
+        "t": "nouveau",
+        "titre": "Importez tous vos investisseurs Proxeema en un clic"
       },
       {
-        "t": "mieux",
-        "titre": "Un compte rendu qui connaît le prochain rendez-vous"
+        "t": "corrige",
+        "titre": "L’ancien dossier « clients » disparaît de lui-même"
       },
       {
         "t": "corrige",
