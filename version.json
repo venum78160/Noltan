@@ -1,40 +1,32 @@
 {
-  "version": "3.2.0",
+  "version": "3.3.0",
   "niveau": "normale",
   "url": "https://github.com/venum78160/Noltan/releases/latest",
-  "url_exe": "https://github.com/venum78160/Noltan/releases/download/v3.2.0/Noltan-Installation.exe",
-  "sha256": "89dc54c56ad8d477abdb09b5ef8377839df9714b8305934bfed074fa33ea4c7d",
-  "taille": 75988304,
-  "notes": "release: Noltan 3.2.0 — formulaires PDF remplis sur le document, fiches conseil Stellium livrées, import de tous les investisseurs Proxeema, ancien dossier clients/ résorbé [minor]",
+  "url_exe": "https://github.com/venum78160/Noltan/releases/download/v3.3.0/Noltan-Installation.exe",
+  "sha256": "0f10014cae8c22d3d5a345e92a12a79babf17ba7c1b8982ecda48e6a6ecb17b8",
+  "taille": 76000280,
+  "notes": "release: Noltan 3.3.0 — relecture en série de l'import de tous les investisseurs (retour au bilan, enchaînement), bandeau et tuile d'Accueil, réimport seul d'un investisseur non lu, source de l'import dans l'Activité, relais Mac débloqué [minor]",
   "retirees": [],
   "notes_maj": {
-    "version": "3.2.0",
-    "date": "2026-10-13",
-    "intro": "Vos fiches conseil et bulletins PDF se remplissent directement dans Noltan, les fiches Stellium sont livrées avec l’application, et tout votre portefeuille Proxeema s’importe en un clic.",
+    "version": "3.3.0",
+    "date": "2026-10-14",
+    "intro": "Une mise à jour courte, née de vos premiers imports de tous vos investisseurs : la relecture se fait à la suite, sans jamais perdre la liste.",
     "points": [
       {
-        "t": "nouveau",
-        "titre": "Remplissez vos formulaires PDF sur le document"
+        "t": "mieux",
+        "titre": "Relisez vos investisseurs importés à la suite, sans perdre la liste"
       },
       {
         "t": "nouveau",
-        "titre": "Les fiches conseil Stellium livrées avec Noltan"
+        "titre": "Un bandeau vous ramène au bilan de l’import, où que vous soyez"
       },
       {
         "t": "mieux",
-        "titre": "Noltan apprend en vous regardant remplir"
-      },
-      {
-        "t": "nouveau",
-        "titre": "Importez tous vos investisseurs Proxeema en un clic"
+        "titre": "Réimportez un investisseur non lu en un clic"
       },
       {
         "t": "corrige",
-        "titre": "L’ancien dossier « clients » disparaît de lui-même"
-      },
-      {
-        "t": "corrige",
-        "titre": "Stabilité et corrections"
+        "titre": "Sur Mac, le relais entre vos deux ordinateurs ne reste plus bloqué"
       }
     ]
   }
