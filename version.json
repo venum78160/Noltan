@@ -1,32 +1,36 @@
 {
-  "version": "3.3.0",
+  "version": "3.4.0",
   "niveau": "normale",
   "url": "https://github.com/venum78160/Noltan/releases/latest",
-  "url_exe": "https://github.com/venum78160/Noltan/releases/download/v3.3.0/Noltan-Installation.exe",
-  "sha256": "0f10014cae8c22d3d5a345e92a12a79babf17ba7c1b8982ecda48e6a6ecb17b8",
-  "taille": 76000280,
-  "notes": "release: Noltan 3.3.0 — relecture en série de l'import de tous les investisseurs (retour au bilan, enchaînement), bandeau et tuile d'Accueil, réimport seul d'un investisseur non lu, source de l'import dans l'Activité, relais Mac débloqué [minor]",
+  "url_exe": "https://github.com/venum78160/Noltan/releases/download/v3.4.0/Noltan-Installation.exe",
+  "sha256": "1e27e8e4301862f84cf3d2ec8c16d45107c14b7c8e70295976c525e66b126c4a",
+  "taille": 77160560,
+  "notes": "release: Noltan 3.4.0 — allocation et arbitrage du partenaire collés dans les fiches conseil, contrat du client repris, page Anniversaires en calendrier, documents rangés par client puis par date, ouverture immédiate, tâches sans échéance sur l'Accueil, fiches conseil fidèles à l'écran comme dans le PDF [minor]",
   "retirees": [],
   "notes_maj": {
-    "version": "3.3.0",
-    "date": "2026-10-14",
-    "intro": "Une mise à jour courte, née de vos premiers imports de tous vos investisseurs : la relecture se fait à la suite, sans jamais perdre la liste.",
+    "version": "3.4.0",
+    "date": "2026-11-21",
+    "intro": "Les fiches conseil gagnent en confort et en fidélité : l’allocation du partenaire se colle telle quelle, le contrat du client est repris, et le PDF produit est celui que vous voyez à l’écran.",
     "points": [
       {
-        "t": "mieux",
-        "titre": "Relisez vos investisseurs importés à la suite, sans perdre la liste"
+        "t": "nouveau",
+        "titre": "Collez l’allocation ou l’arbitrage du partenaire dans la fiche conseil"
       },
       {
         "t": "nouveau",
-        "titre": "Un bandeau vous ramène au bilan de l’import, où que vous soyez"
+        "titre": "Tous les anniversaires de l’année dans un calendrier"
       },
       {
         "t": "mieux",
-        "titre": "Réimportez un investisseur non lu en un clic"
+        "titre": "Vos documents rangés par client, puis par date"
+      },
+      {
+        "t": "mieux",
+        "titre": "Noltan s’ouvre aussitôt, et l’Accueil n’oublie plus les tâches sans date"
       },
       {
         "t": "corrige",
-        "titre": "Sur Mac, le relais entre vos deux ordinateurs ne reste plus bloqué"
+        "titre": "Des fiches conseil fidèles, à l’écran comme dans le PDF"
       }
     ]
   }
