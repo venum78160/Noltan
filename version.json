@@ -1,36 +1,36 @@
 {
-  "version": "3.4.0",
+  "version": "3.4.1",
   "niveau": "normale",
   "url": "https://github.com/venum78160/Noltan/releases/latest",
-  "url_exe": "https://github.com/venum78160/Noltan/releases/download/v3.4.0/Noltan-Installation.exe",
-  "sha256": "1e27e8e4301862f84cf3d2ec8c16d45107c14b7c8e70295976c525e66b126c4a",
-  "taille": 77160560,
-  "notes": "release: Noltan 3.4.0 — allocation et arbitrage du partenaire collés dans les fiches conseil, contrat du client repris, page Anniversaires en calendrier, documents rangés par client puis par date, ouverture immédiate, tâches sans échéance sur l'Accueil, fiches conseil fidèles à l'écran comme dans le PDF [minor]",
+  "url_exe": "https://github.com/venum78160/Noltan/releases/download/v3.4.1/Noltan-Installation.exe",
+  "sha256": "eb8da66da9609bef9f3800bc23b9572c8e502f4bd563fc689c6a22bee80c696c",
+  "taille": 97879672,
+  "notes": "release: Noltan 3.4.1 — documents mis en pause et repris plus tard (formulaires et documents du cabinet), fiches Stellium à jour avec avis de nouvelle version, PDF produits allégés, attestations qui se remplissent sans blocage",
   "retirees": [],
   "notes_maj": {
-    "version": "3.4.0",
-    "date": "2026-11-21",
-    "intro": "Les fiches conseil gagnent en confort et en fidélité : l’allocation du partenaire se colle telle quelle, le contrat du client est repris, et le PDF produit est celui que vous voyez à l’écran.",
+    "version": "3.4.1",
+    "date": "2026-11-26",
+    "intro": "Un document commencé n’est plus perdu : mettez-le en pause et reprenez-le quand vous voulez. Les fiches Stellium sont à jour, et les PDF produits restent assez légers pour être envoyés.",
     "points": [
       {
         "t": "nouveau",
-        "titre": "Collez l’allocation ou l’arbitrage du partenaire dans la fiche conseil"
+        "titre": "Mettez un document en pause et reprenez-le plus tard"
       },
       {
         "t": "nouveau",
-        "titre": "Tous les anniversaires de l’année dans un calendrier"
+        "titre": "Des fiches Stellium à jour, et un avis quand un formulaire change"
       },
       {
         "t": "mieux",
-        "titre": "Vos documents rangés par client, puis par date"
+        "titre": "Des PDF toujours assez légers pour être envoyés"
       },
       {
         "t": "mieux",
-        "titre": "Noltan s’ouvre aussitôt, et l’Accueil n’oublie plus les tâches sans date"
+        "titre": "Des attestations qui se remplissent sans blocage"
       },
       {
         "t": "corrige",
-        "titre": "Des fiches conseil fidèles, à l’écran comme dans le PDF"
+        "titre": "Une page Documents plus lisible, stabilité et corrections"
       }
     ]
   }
